@@ -1,0 +1,52 @@
+:root {
+    --bg-dark: hsl(0,0%,0%);
+    --bg: hsl(0,0%,5%);
+    --bg-light: hsl(0,0%,10%);
+    --text: hsl(0,0%,95%);
+    --text-sub: hsl(0,0%,70%);
+    --main: hsl(267, 84%, 81%);
+}
+
+@font-face {
+    font-family: jetbrains-mono;
+    src: url(/fonts/JetBrainsMono-Regular.ttf);
+}
+
+* {
+    font-family: jetbrains-mono;
+}
+
+body {
+    background-color: var(--bg);
+    color: var(--text);
+}
+
+.subtitle {
+    color: var(--text-sub)
+}
+
+.text {
+    color: var(--text)
+}
+
+.main {
+    color: var(--main)
+}
+
+.centered {
+    text-align: center;
+}
+
+input {
+    background-color: var(--bg-light);
+    color: var(--text);
+    padding: 25px;
+    border-radius: 15px;
+    width: 95%;
+}
+
+button {
+    background-color: var(--bg-dark);
+    color: var(--main);
+    border-radius: 5px
+}

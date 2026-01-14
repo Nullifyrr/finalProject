@@ -1,3 +1,4 @@
+alert("hey this website uses cookies")
 // Save the cookies
 // 1. Get the variable (from our previous step)
 const params = new URLSearchParams(window.location.search);

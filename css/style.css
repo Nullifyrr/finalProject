@@ -50,3 +50,15 @@ button {
     color: var(--main);
     border-radius: 5px
 }
+
+.list1 {
+    padding: 50px;
+}
+
+.bottom {
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+  text-align: center;
+  padding: 50px
+}
